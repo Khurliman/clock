@@ -101,7 +101,7 @@ btn_sw.addEventListener('click', function() {
         span_sw.classList.remove('active');
         span_sw.classList.add('active_clear');
     }else {
-        
+        span_sw.classList.remove('active_clear');
         sec_sw.innerHTML = 0;
         min_sw.innerHTML = 0;
         hour_sw.innerHTML = 0;
